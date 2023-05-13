@@ -1,0 +1,17 @@
+#box{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    .headline{
+        text-decoration: underline;
+        font-weight: 500;
+    }
+   .result{
+        color: navy;
+        width: 12rem;
+        margin: 1rem;
+    }
+}
+
+//advanced
+

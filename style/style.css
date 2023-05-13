@@ -1,0 +1,14 @@
+#box {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+#box .headline {
+  text-decoration: underline;
+  font-weight: 500;
+}
+#box .result {
+  color: navy;
+  width: 12rem;
+  margin: 1rem;
+}/*# sourceMappingURL=style.css.map */
