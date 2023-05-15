@@ -32,9 +32,7 @@ for(let [key, value] of Object.entries(obj)){
 // second " : string" specifies returned type
 function greeting(name? : string) : string {
     return name ? `Hello, ${name}!` : `Why don't you introduce yourself?`;
-
     // alternative
-
     // if (name) {
     //     return `Hello, ${name}!`;
     // } else {
@@ -56,16 +54,16 @@ function anotherFun() {
 console.log(higherOrderFun(anotherFun));
 
 // basic exercise 1
-// let numbers: number[] = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
-// let result = document.getElementById("result") as HTMLElement;
-// for (let i = 0; i < numbers.length; i++) {
+let numbers: number[] = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+let result = document.getElementById("result") as HTMLElement;
+for (let i = 0; i < numbers.length; i++) {
 
-//     for (let v = 0; v < numbers.length; v++) {
-//         result.innerHTML += numbers[i] + " x " + numbers[i] + " = " + numbers[i] * numbers[v] + "<br>";
-//     }
+    for (let v = 0; v < numbers.length; v++) {
+        result.innerHTML += numbers[i] + " x " + numbers[i] + " = " + numbers[i] * numbers[v] + "<br>";
+    }
 
-//     result.innerHTML += `<br> <hr> <br>`;
-// }
+    result.innerHTML += `<br> <hr> <br>`;
+}
 
 // basic exercise 2
 let result1 = document.getElementById("result1") as HTMLElement;
@@ -104,6 +102,3 @@ for(let [i, value] of Object.entries(names)){
     result5.innerHTML += `${value} <br>`;
     result6.innerHTML += `${i} - ${value} <br>`;
 }
-
-//advanced
-
